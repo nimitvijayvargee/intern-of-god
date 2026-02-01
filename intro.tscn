@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://bqbduevmwsls3"]
+[gd_scene load_steps=4 format=3 uid="uid://bqbduevmwsls3"]
 
+[ext_resource type="Script" uid="uid://hg3uiichs3gb" path="res://scripts/intro.gd" id="1_ayt76"]
 [ext_resource type="FontFile" uid="uid://dtlsps0wa2skw" path="res://assets/font/Jersey10-Regular.ttf" id="1_s2ta7"]
 
 [sub_resource type="Theme" id="Theme_ayt76"]
 default_font = ExtResource("1_s2ta7")
 
 [node name="Intro" type="Node2D"]
+script = ExtResource("1_ayt76")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_right = 1152.0
